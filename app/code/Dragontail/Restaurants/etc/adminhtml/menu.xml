@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Dragontail_Restaurants::parent" title="Restaurants" module="Dragontail_Restaurants" sortOrder="100" resource="Dragontail_Restaurants::parent"/>
+		<add id="Dragontail_Restaurants::restaurants" title="Restaurants Restaurants" module="Dragontail_Restaurants" sortOrder="20" parent="Dragontail_Restaurants::parent" action="restaurants/restaurants" resource="Dragontail_Restaurants::restaurants"/>
+
+    </menu>
+</config>
